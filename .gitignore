@@ -1,0 +1,27 @@
+# Local tool installations
+/.miktex/
+/.miktex-config/
+/.miktex-data/
+/.miktex-local/
+/.miktex-roaming/
+/.pyuser/
+
+# Private source material
+/Resume (Original).pdf
+
+# Generated resume outputs
+
+/resume-compiled.png
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
