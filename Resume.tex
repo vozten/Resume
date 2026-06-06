@@ -15,14 +15,14 @@
 \urlstyle{same}
 
 \newcommand{\resumesection}[1]{%
-  \vspace{6pt}%
-  {\fontsize{10}{11}\selectfont\textbf{\underline{#1}:}}\par
-  \vspace{2pt}%
+  \vspace{6pt plus 1fill}%
+  {\fontsize{11}{13}\selectfont\textbf{\underline{#1}:}}\par
+  \vspace{3pt}%
 }
 
 \newcommand{\role}[2]{%
-  {\fontsize{9}{10.5}\selectfont\textbf{#1}}\par
-  {\fontsize{9}{10.5}\selectfont\textit{#2}}\par
+  {\fontsize{9.7}{12}\selectfont\textbf{#1}}\par
+  {\fontsize{9.7}{12}\selectfont\textit{#2}}\par
 }
 
 \newenvironment{skillitems}{%
@@ -30,12 +30,12 @@
     label=\textbullet,
     leftmargin=0.50in,
     labelsep=0.12in,
-    itemsep=0pt,
+    itemsep=1.5pt,
     topsep=0pt,
     parsep=0pt,
     partopsep=0pt
   ]%
-  \fontsize{9}{10.5}\selectfont
+  \fontsize{9.7}{12}\selectfont
 }{\end{itemize}}
 
 \newenvironment{experienceitems}{%
@@ -43,17 +43,17 @@
     label=\textbullet,
     leftmargin=1.50in,
     labelsep=0.12in,
-    itemsep=0pt,
+    itemsep=1.5pt,
     topsep=0pt,
     parsep=0pt,
     partopsep=0pt
   ]%
-  \fontsize{9}{10.5}\selectfont
+  \fontsize{9.7}{12}\selectfont
 }{\end{itemize}}
 
 \begin{document}
 
-{\fontsize{10}{11}\selectfont
+{\fontsize{10.5}{13}\selectfont
 \textbf{Volkan Ozten}\par
 5627 York Place, Goleta, CA 93117\par
 Cell: 805.698.4497\par
@@ -62,75 +62,65 @@ Email: \href{mailto:v_ozten@hotmail.com}{v\_ozten@hotmail.com}\par
 
 \resumesection{Skills}
 \begin{skillitems}
-  \item Proficient with C, C++, Java, Python, MATLAB, RISC-V Assembly, and Verilog/SystemVerilog HDL
-  \item Proficient with various ECE tools such as DMMs, Waveform generators, soldering, and oscilloscopes
-  \item Proficient with Git and GitHub for version control, branching workflows, and collaborative development
-  \item Proficient with Vivado Design Suite and Vitis Software Platform
-  \item Experienced in using FPGA development boards such as Digilent Nexys A7-100T
-  \item Proficient with MS Windows, UNIX (Linux) Operating systems, and their respective terminal workflows
-  \item Experienced in using Microsoft Office, Excel, PowerPoint, and Visio
+  \item Embedded software development with C, C++, Python, C\#, MATLAB, and RISC-V Assembly
+  \item Embedded Linux and Windows development environments; Git/GitHub version control and collaborative workflows
+  \item FPGA and firmware development with Verilog/SystemVerilog, Vivado Design Suite, Vitis, and Digilent Nexys A7-100T
+  \item Software/hardware integration, interface debugging, system testing, and technical documentation
+  \item Laboratory testing with oscilloscopes, waveform generators, DMMs, soldering equipment, MATLAB, and LabVIEW
 \end{skillitems}
 
 \resumesection{Experience}
 \role{Consolidated Ocean Technologies, Inc. -- Electrical Engineering Intern}
      {July 2023 -- Present}
 \begin{experienceitems}
-  \item Selected and integrated an appropriate remote controller for an autonomous underwater vehicle
-        (AUV) through hardware research and performance evaluation; developed C\# interface code to
-        communicate with the main control algorithm.
-  \item Diagnosed and resolved RS-232 protocol-level issues between embedded systems on an AUV
-        and a GPS flasher unit, enabling robust bidirectional communication.
-  \item Engineered and documented AUV electrical cabling architecture, optimizing wire gauge,
-        connector types, and routing paths for minimal noise, weight, and assembly complexity.
-  \item Drafted electrical drawings for battery packs, power distribution systems, and other electrical
-        systems for use in an AUV utilizing PowerPoint and Visio.
-  \item Assist with the development and debugging of mechanical, electrical, and software interfaces of a
-        control system housing an inertial navigation system for an AUV.
+  \item Developed and integrated a C\# hardware interface between a remote controller and an AUV's
+        primary control algorithm after evaluating controller hardware and system requirements.
+  \item Diagnosed RS-232 protocol and interface issues between AUV embedded systems and a GPS
+        flasher unit, enabling reliable bidirectional communication.
+  \item Support cross-disciplinary development and laboratory debugging of mechanical, electrical, and
+        software interfaces for a control system housing an inertial navigation system.
+  \item Engineered and documented AUV electrical architecture, including signal-aware cable routing,
+        wire-gauge selection, connector selection, battery packs, and power distribution systems.
 \end{experienceitems}
 
-\vspace{1pt}
+\vspace{3pt}
 \role{Capstone Design Project -- Handheld Thermal Imaging System w/ External Calibration Protocol}
      {UC Santa Barbara \textbar{} Partnered with Teledyne FLIR, September 2024 -- June 2025}
 \begin{experienceitems}
-  \item Evaluated and selected embedded processing platforms, including Broadcom BCM2710A1
-        (Raspberry Pi Zero 2 W) and BCM2711 (Raspberry Pi 4 Model B), balancing system constraints
-        of size, power, and peripheral support.
-  \item Designed and implemented the full software control flow in C++ and Python, integrating thermal
-        camera input, image processing, display output, and user interface logic across heterogeneous
-        embedded processors (Broadcom BCM2710A1 and BCM2711).
-  \item Collaborated on electrical and mechanical integration of the handheld thermal system, conducting
-        power characterization, sensor calibration, and enclosure thermography to validate system
-        reliability and performance under operational heat and load profiles.
+  \item Designed and implemented embedded C++ and Python software integrating thermal-camera input,
+        image-processing algorithms, display output, and user-interface control across two processors.
+  \item Evaluated Broadcom BCM2710A1 and BCM2711 embedded platforms and defined a system
+        architecture balancing size, power, performance, and peripheral-interface requirements.
+  \item Integrated and tested software, electrical, and mechanical subsystems with a multidisciplinary
+        team; performed power characterization, sensor calibration, and thermal validation under load.
   \item Awarded \textbf{Best Multidisciplinary Project} among all UCSB 2025 Engineering Capstone teams.
 \end{experienceitems}
 
-\vspace{1pt}
+\vspace{3pt}
 \role{Sonatech, LLC -- Assistant Test Technician}
      {July 2023 -- September 2023}
 \begin{experienceitems}
-  \item Conducted electronic acceptance tests for transponders utilizing MATLAB and LabVIEW to test if
-        transponders were performing their intended function.
-  \item Improved reliability of transponder signal verification by expanding and optimizing MATLAB
-        testing procedures for fidelity and performance validation.
-  \item Diagnosed and corrected issues with electrical acceptance testing procedures and their
-        respective devices (transponders).
+  \item Executed laboratory acceptance tests for electronic transponders using MATLAB and LabVIEW,
+        verifying signal fidelity, performance, and required product behavior.
+  \item Expanded and optimized MATLAB test procedures to improve repeatability and reliability of
+        transponder signal verification.
+  \item Diagnosed and corrected faults in test procedures, instrumentation, and transponder hardware.
 \end{experienceitems}
 
 \resumesection{Education}
-{\fontsize{9}{10.5}\selectfont
+{\fontsize{9.7}{12}\selectfont
 \hspace*{0.50in}\textbf{University of California, Santa Barbara}\par
 \hspace*{0.50in}\textit{M.S. in Computer Engineering -- Expected June 2026}\par
 \hspace*{0.50in}Focus: Embedded Systems, Computer Architecture, and VLSI\par
-\vspace{3pt}
+\vspace{5pt}
 \hspace*{0.50in}\textit{B.S. in Electrical Engineering -- Graduated June 2025, GPA of 3.66}\par
 \hspace*{0.50in}Honors: Dean's List, \textbf{Best Multidisciplinary Capstone Project}\par
 }
 
-\resumesection{Extracurriculars/Volunteer Experience}
+\resumesection{Additional Experience}
 \begin{skillitems}
   \item UCSB IEEE Member
   \item Tutor for AP Physics 1 \& 2 in High School
-  \item Varsity Swim Team and Water Polo in High School
 \end{skillitems}
 
 \end{document}

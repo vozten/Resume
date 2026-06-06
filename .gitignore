@@ -12,7 +12,7 @@
 # Generated resume outputs
 
 /resume-compiled.png
-
+/Software Engineer II, Real-time Embedded in goleta, California, United States of America _ Engineering at RTX_files/
 # LaTeX build artifacts
 *.aux
 *.bbl
@@ -25,3 +25,4 @@
 *.run.xml
 *.synctex.gz
 *.toc
+*.html
